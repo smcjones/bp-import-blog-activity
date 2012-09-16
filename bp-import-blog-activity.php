@@ -12,6 +12,6 @@ Author URI: http://teleogistic.net
 function bp_import_blog_activity_init() {
 	require( dirname( __FILE__ ) . '/bp-import-blog-activity-bp-functions.php' );
 }
-add_action( 'bp_init', 'bp_import_blog_activity_init' );
+add_action( 'bp_include', 'bp_import_blog_activity_init' );
 
 ?>
