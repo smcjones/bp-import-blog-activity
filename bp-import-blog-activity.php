@@ -3,9 +3,9 @@
 Plugin Name: BP Import Blog Activity
 Plugin URI: http://teleogistic.net/code/buddypress/bp-import-blog-activity
 Description: Updates BuddyPress activity streams with missing blog comments and posts
-Version: 0.1
+Version: 0.2
 Author: Boone Gorges
-Author URI: http://teleogistic.net
+Author URI: http://boone.gorg.es
 */
 
 /* Only load the BuddyPress plugin functions if BuddyPress is loaded and initialized. */
