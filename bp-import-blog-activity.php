@@ -8,6 +8,7 @@ Author: Boone Gorges
 Author URI: http://boone.gorg.es
 */
 
+require_once( dirname(dirname(__FILE__)) . '/buddypress/bp-loader.php' );
 /* Only load the BuddyPress plugin functions if BuddyPress is loaded and initialized. */
 function bp_import_blog_activity_init() {
 	require( dirname( __FILE__ ) . '/bp-import-blog-activity-bp-functions.php' );
