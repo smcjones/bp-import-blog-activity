@@ -132,7 +132,7 @@ function bp_import_loop_posts($blog=1, $query)
 
 				$user = get_user_by( 'email', $recorded_comment->comment_author_email );
 
-				if ( is_wp_error( $user ) || ! is_a( 'WP_User', $user ) ) {
+				if ( is_wp_error( $user ) || ! $user instanceof WP_User ) {
 					continue;
 				}
 
